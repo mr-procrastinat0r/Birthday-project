@@ -90,10 +90,10 @@ function App() {
                   <div className="image-gallery">
                     <h2 className="gallery-title">Our Moments cutie 👀</h2>
                     <div className="gallery-grid">
-                      <img src="public/images/image1.jpg" alt="Memory 1" className="gallery-image" />
-                      <img src="public/images/image2.jpg" alt="Memory 2" className="gallery-image" />
-                      <img src="public/images/image3.jpg" alt="Memory 3" className="gallery-image" />
-                      <img src="public/images/image4.jpg" alt="Memory 4" className="gallery-image" />
+                      <img src="/images/image1.jpg" alt="Memory 1" className="gallery-image" />
+                      <img src="/images/image2.jpg" alt="Memory 2" className="gallery-image" />
+                      <img src="/images/image3.jpg" alt="Memory 3" className="gallery-image" />
+                      <img src="/images/image4.jpg" alt="Memory 4" className="gallery-image" />
                     </div>
                   </div>
                 </>
