@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import confetti from 'canvas-confetti'
 import './App.css'
+import image1 from './assets/image1.jpg'
+import image2 from './assets/image2.jpg'
+import image3 from './assets/image3.jpg'
+import image4 from './assets/image4.jpg'
 
 function App() {
   const [clicked, setClicked] = useState(false)
@@ -90,10 +94,10 @@ function App() {
                   <div className="image-gallery">
                     <h2 className="gallery-title">Our Moments cutie 👀</h2>
                     <div className="gallery-grid">
-                      <img src="/images/image1.jpg" alt="Memory 1" className="gallery-image" />
-                      <img src="/images/image2.jpg" alt="Memory 2" className="gallery-image" />
-                      <img src="/images/image3.jpg" alt="Memory 3" className="gallery-image" />
-                      <img src="/images/image4.jpg" alt="Memory 4" className="gallery-image" />
+                      <img src={image1} alt="Memory 1" className="gallery-image" />
+                      <img src={image2} alt="Memory 2" className="gallery-image" />
+                      <img src={image3} alt="Memory 3" className="gallery-image" />
+                      <img src={image4} alt="Memory 4" className="gallery-image" />
                     </div>
                   </div>
                 </>
